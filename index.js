@@ -18,7 +18,7 @@ const io = require("socket.io")(http);
 const Sequelize = require("sequelize");
 
 // On fabrique le lien de la base de données
-const dbPath = path.resolve(__dirname, 'chat.sqlite4');
+const dbPath = path.resolve(__dirname, 'chat');
 
 // On se connecte a la base
 const sequelize = new Sequelize("database", "username", "password",{
